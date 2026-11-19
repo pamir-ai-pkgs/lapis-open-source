@@ -14,7 +14,7 @@ Source code and license notices for the open-source components in the Lapis One 
 | Rockchip boot binaries | rkbin: the loader, trust and tool binaries the U-Boot and kernel image builds use | Rockchip's rkbin license | The binaries as Rockchip distributes them, with one settings file changed |
 | Rust crate | serialport 4.10.0 | MPL-2.0 | The unmodified crates.io release |
 
-`open-source.json` lists all 611 components with version, license, archive and SHA-256 hash.
+`open-source.json` lists all 611 components with version, license and archive. Each component also has its path inside the archive and its SHA-256 hash, except the 106 Nix packages: their entries list their files under `nix/sources/`, and the `SHA256SUMS` file in the Nix archive holds those hashes.
 
 ## Applicable versions
 
@@ -34,10 +34,10 @@ Download the attached files under **Assets**:
 | `lapis-rk3576-v0.4.0-pool.tar` | The packages built by Pamir |
 | `lapis-rk3576-v0.4.0-nix.tar` | Nix package sources, patches and license texts |
 | `lapis-rk3576-v0.4.0-first-party-deps.tar` | The serialport crate |
-| `open-source.json` | Every component with its version, license, archive, path inside the archive and hash |
+| `open-source.json` | Every component with its version, license and archive, and its path inside the archive and hash (for a Nix package, its files under `nix/sources/`) |
 | `SHA256SUMS` | Checksums for the files above. Check them with `sha256sum -c SHA256SUMS` |
 
-Each archive unpacks into its own directory with a `SHA256SUMS` file for its contents.
+Each archive unpacks into a directory with a `SHA256SUMS` file for its contents. Both Debian archives unpack into `debian/`; its `SHA256SUMS` comes in `lapis-rk3576-v0.4.0-debian-1.tar` and covers the source packages of both.
 
 GitHub's automatically generated **Source code (zip/tar.gz)** files contain the repository index, not the component sources.
 
