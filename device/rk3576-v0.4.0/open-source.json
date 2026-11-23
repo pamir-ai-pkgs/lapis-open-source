@@ -3,8 +3,8 @@
  "product": "Lapis One system software",
  "imageVersion": "rk3576-v0.4.0",
  "repository": "pamir-ai-pkgs/lapis-open-source",
- "tag": "device-rk3576-v0.4.0-oss-08ee8318b7cf",
- "revision": "08ee8318b7cf603faa9da9ede3b8ef2c61e1ab5174a1b7605de9083301221d88",
+ "tag": "device-rk3576-v0.4.0-oss-b85902fa65b8",
+ "revision": "b85902fa65b89e368be0b46bafa858f2f50658138f5712bd1e8edde678f067e9",
  "components": [
   {
    "group": "Linux kernel",
@@ -15,7 +15,7 @@
    "modified": true,
    "archive": "lapis-rk3576-v0.4.0-kernel.tar",
    "path": "kernel/linux-rockchip-kernel-ae87508d.tar.zst",
-   "sha256": "ac9330dbcf5c58c1e9636be260c7c2f821ded741b8992d9e895aae6978b9a10a"
+   "sha256": "ac8e71c8eb0da9702c9ed0b6afbd7ae57e22a236e6199e5f89a44a23d6b56a1d"
   },
   {
    "group": "U-Boot",
@@ -26,7 +26,7 @@
    "modified": true,
    "archive": "lapis-rk3576-v0.4.0-u-boot.tar",
    "path": "u-boot/linux-rockchip-u-boot-56ae26dc.tar.zst",
-   "sha256": "77cfa17356892bf14987fc970db93ad561c3597da88d30e2f80d737b901903f1"
+   "sha256": "60e39f7d3656eff827e7fb94ac03ad098e74be14a1296b009f699381fe2e0c3d"
   },
   {
    "group": "Packages built by Pamir",
@@ -6143,7 +6143,7 @@
   },
   {
    "name": "lapis-rk3576-v0.4.0-kernel.tar",
-   "sha256": "4a49658b00b622a85f4885ae0a69dc369d106a0198a9eacbb325eccf3449b6da",
+   "sha256": "34c0da049b6b33122d801f4a17bf536947c504e120c0b539907d9e921184179d",
    "size": 151920640
   },
   {
@@ -6163,7 +6163,7 @@
   },
   {
    "name": "lapis-rk3576-v0.4.0-u-boot.tar",
-   "sha256": "9b8c8055cc98ebc4d9198265379395b5a7a6e3f32dfb7e10bf0a8ac8c89e73b4",
+   "sha256": "c80ccc8e7d97fa226cec128cc78ec8de9d68c410e103d2ac31345c66b734f8ce",
    "size": 12963840
   }
  ]
