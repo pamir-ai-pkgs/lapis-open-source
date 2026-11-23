@@ -3,19 +3,19 @@
  "product": "Lapis One system software",
  "imageVersion": "rk3576-v0.4.0",
  "repository": "pamir-ai-pkgs/lapis-open-source",
- "tag": "device-rk3576-v0.4.0-oss-a6e52d61bb61",
- "revision": "a6e52d61bb6114a1acbe03c3114689eb1e7a7500f5b12f232c7dcd640b1d2a98",
+ "tag": "device-rk3576-v0.4.0-oss-08ee8318b7cf",
+ "revision": "08ee8318b7cf603faa9da9ede3b8ef2c61e1ab5174a1b7605de9083301221d88",
  "components": [
   {
    "group": "Linux kernel",
    "name": "linux-rockchip-kernel",
    "version": "6.1.172",
-   "license": "GPL-2.0 WITH Linux-syscall-note",
+   "license": "GPL-2.0-only; Linux-syscall-note on the files whose SPDX line names it",
    "revision": "ae87508d2f212170f617e9ee39674a27a84c134b",
    "modified": true,
    "archive": "lapis-rk3576-v0.4.0-kernel.tar",
    "path": "kernel/linux-rockchip-kernel-ae87508d.tar.zst",
-   "sha256": "601f5e4f39a89e537f79cbbefa3e62cc3a9afbe05990c8eec34a18582d95c4fc"
+   "sha256": "ac9330dbcf5c58c1e9636be260c7c2f821ded741b8992d9e895aae6978b9a10a"
   },
   {
    "group": "U-Boot",
@@ -26,7 +26,7 @@
    "modified": true,
    "archive": "lapis-rk3576-v0.4.0-u-boot.tar",
    "path": "u-boot/linux-rockchip-u-boot-56ae26dc.tar.zst",
-   "sha256": "7f722ec2a1e0ac4ce17070307aee57b1c6b1a946a5435c0275ca50bf5adc06ca"
+   "sha256": "77cfa17356892bf14987fc970db93ad561c3597da88d30e2f80d737b901903f1"
   },
   {
    "group": "Packages built by Pamir",
@@ -156,7 +156,7 @@
    "modified": true,
    "archive": "lapis-rk3576-v0.4.0-pool.tar",
    "path": "pool/rauc_1.15.2-1+pamirpatch2.tar.zst",
-   "sha256": "a5ac8c70ff37dbe52f504bc2069944c8331ce7298fa0beb6b565db2dc583fbfd"
+   "sha256": "c06abcaa5ae8dd26a05457861281ddc15304e7994bf76eeb1e3cacd2b6e9a005"
   },
   {
    "group": "Packages built by Pamir",
@@ -6123,7 +6123,7 @@
  "files": [
   {
    "name": "lapis-rk3576-v0.4.0-build-scripts.tar",
-   "sha256": "6942e2b7698857d90d79d0bf37d8f5f840c8fadba67552790479475024ec831f",
+   "sha256": "7fe254e811bd33d810168f58f898e8f6b7ee4501a2d0592f1b9dfde8ae9a1e24",
    "size": 71680
   },
   {
@@ -6143,18 +6143,18 @@
   },
   {
    "name": "lapis-rk3576-v0.4.0-kernel.tar",
-   "sha256": "991a6ff27ae484a8276686e7e2cc4b8d1c04c97a781a0d38bf382ee3ce461a7d",
-   "size": 151859200
+   "sha256": "4a49658b00b622a85f4885ae0a69dc369d106a0198a9eacbb325eccf3449b6da",
+   "size": 151920640
   },
   {
    "name": "lapis-rk3576-v0.4.0-nix.tar",
-   "sha256": "11d891101444fe17c0dff8b80decf5889aa4583238f958ad30d6eb20faaa3b8f",
-   "size": 815636480
+   "sha256": "554eae58b9ed6a66e48ddc07d2e3313b0ee169cfdd9b85bae17e221d4ea02044",
+   "size": 815697920
   },
   {
    "name": "lapis-rk3576-v0.4.0-pool.tar",
-   "sha256": "169ba4adba4f1e788932736277e8c1266ab54ea1c696123d1c8c62ba2a8871b9",
-   "size": 945029120
+   "sha256": "e3b94158c598fa4853e9604476c95a9b5c43181bf36f98e679521abdaec698f3",
+   "size": 945039360
   },
   {
    "name": "lapis-rk3576-v0.4.0-rkbin.tar",
@@ -6163,8 +6163,8 @@
   },
   {
    "name": "lapis-rk3576-v0.4.0-u-boot.tar",
-   "sha256": "a1d7b77f80d7e2110f458c6a6bf0708050b0c344021c5a2c0a16b6205889f073",
-   "size": 12943360
+   "sha256": "9b8c8055cc98ebc4d9198265379395b5a7a6e3f32dfb7e10bf0a8ac8c89e73b4",
+   "size": 12963840
   }
  ]
 }
