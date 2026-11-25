@@ -3,8 +3,8 @@
  "product": "Lapis One system software",
  "imageVersion": "rk3576-v0.4.0",
  "repository": "pamir-ai-pkgs/lapis-open-source",
- "tag": "device-rk3576-v0.4.0-oss-b85902fa65b8",
- "revision": "b85902fa65b89e368be0b46bafa858f2f50658138f5712bd1e8edde678f067e9",
+ "tag": "device-rk3576-v0.4.0-oss-8a36074a1462",
+ "revision": "8a36074a1462b7629a711f11a2154885a8fbb258f4f3c3719148c9c5469b24ea",
  "components": [
   {
    "group": "Linux kernel",
@@ -27,6 +27,16 @@
    "archive": "lapis-rk3576-v0.4.0-u-boot.tar",
    "path": "u-boot/linux-rockchip-u-boot-56ae26dc.tar.zst",
    "sha256": "60e39f7d3656eff827e7fb94ac03ad098e74be14a1296b009f699381fe2e0c3d"
+  },
+  {
+   "group": "Packages built by Pamir",
+   "name": "android-adbd",
+   "version": "10.0.0+r36-10~pamir1",
+   "license": "Apache-2.0",
+   "modified": true,
+   "archive": "lapis-rk3576-v0.4.0-pool.tar",
+   "path": "pool/android-adbd_10.0.0+r36-10~pamir1.tar.zst",
+   "sha256": "6885ccf3f927d2df3e26a08a13a21d24f4d5e06ec30eae8ebddd6f9aa393759f"
   },
   {
    "group": "Packages built by Pamir",
@@ -157,6 +167,16 @@
    "archive": "lapis-rk3576-v0.4.0-pool.tar",
    "path": "pool/rauc_1.15.2-1+pamirpatch2.tar.zst",
    "sha256": "c06abcaa5ae8dd26a05457861281ddc15304e7994bf76eeb1e3cacd2b6e9a005"
+  },
+  {
+   "group": "Packages built by Pamir",
+   "name": "rockchip-update-engine",
+   "version": "1.0.1+v0.3.0-2rk1",
+   "license": "Apache-2.0",
+   "modified": true,
+   "archive": "lapis-rk3576-v0.4.0-pool.tar",
+   "path": "pool/rockchip-update-engine_1.0.1+v0.3.0-2rk1.tar.zst",
+   "sha256": "baad82f4ef38ca179a0df972d5eb0336dd0ca3c269954d0ada0e9d884358057b"
   },
   {
    "group": "Packages built by Pamir",
@@ -6153,8 +6173,8 @@
   },
   {
    "name": "lapis-rk3576-v0.4.0-pool.tar",
-   "sha256": "e3b94158c598fa4853e9604476c95a9b5c43181bf36f98e679521abdaec698f3",
-   "size": 945039360
+   "sha256": "4fa6cd06a89c0d58f3998e5a75eb7e475949676653463ad342140682e809c051",
+   "size": 1020139520
   },
   {
    "name": "lapis-rk3576-v0.4.0-rkbin.tar",

@@ -9,12 +9,13 @@ Source code and license notices for the open-source components in the Lapis One 
 | Linux kernel | Linux 6.1.172 with Rockchip and Pamir changes | GPL-2.0-only; Linux-syscall-note on the files whose SPDX line names it | Full source tree, configuration, build scripts, build notes and a list of changed files |
 | U-Boot | U-Boot 2017.09 with Rockchip and Pamir changes | GPL-2.0-or-later | Full source tree, build scripts, build notes and a list of changed files |
 | Debian packages | 486 source packages from Debian 13 (trixie) and its security, updates and backports suites, unmodified | Per package | Each Debian source package as Debian publishes it: the `.dsc`, the upstream source and Debian's changes |
-| Packages built by Pamir | bluez, chromium, ffmpeg, gstreamer-webrtc, gstreamer1.0-rga, gstreamer1.0-rockchip, libdrm-cursor, librga, libv4l-rkmpp, mpp, rauc, umtp-responder, v4l-utils | Per package | Source with the Pamir changes and the packaging used to build it |
+| Packages built by Pamir | android-adbd (development images only), bluez, chromium, ffmpeg, gstreamer-webrtc, gstreamer1.0-rga, gstreamer1.0-rockchip, libdrm-cursor, librga, libv4l-rkmpp, mpp, rauc, rockchip-update-engine, umtp-responder, v4l-utils | Per package | Source with the Pamir changes and the packaging used to build it |
 | Nix packages | The packages in the Nix store under the GPL, LGPL, MPL or similar licenses | Per package | Upstream source, the patches nixpkgs applies, and the license text of every Nix package on the image |
 | Rockchip boot binaries | rkbin: the loader, trust and tool binaries the U-Boot and kernel image builds use | Rockchip's rkbin license | The binaries as Rockchip distributes them, with one settings file changed |
 | Rust crate | serialport 4.10.0 | MPL-2.0 | The unmodified crates.io release |
+| MPL modules in Nix programs | option-ext 0.2.0 in the Google Workspace CLI, go-version 1.9.0 in gh | MPL-2.0 | The unmodified releases, under `nix/sources/vendored/` in the Nix archive |
 
-`open-source.json` lists all 611 components with version, license and archive. Each component also has its path inside the archive and its SHA-256 hash, except the 106 Nix packages: their entries list their files under `nix/sources/`, and the `SHA256SUMS` file in the Nix archive holds those hashes.
+`open-source.json` lists all 613 components with version, license and archive. Each component also has its path inside the archive and its SHA-256 hash, except the 106 Nix packages: their entries list their files under `nix/sources/`, and the `SHA256SUMS` file in the Nix archive holds those hashes.
 
 In `open-source.json`, `modified` means changed by Pamir. Debian and nixpkgs apply their own patches to the packages they build, and those patches ship in the archives: in each Debian source package, and under `nix/sources/patches/` in the Nix archive. A component that only Debian or nixpkgs patched has `modified` set to `false`.
 
